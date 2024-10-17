@@ -119,7 +119,25 @@ cl("2" === 2) -> false (strict check, also check the data type of the number)
     Math.random() -> gives between 0 and 1 
 
 
+# Dates In JS
+Months in JS start from 0 index
 
+
+let date = Date.now();   ---> gives milisecond count from 1 jan 1970
+
+
+
+// let date = new Date();
+// console.log("normal date -> " + date);
+// console.log("to Date String -> " + date.toDateString());
+// console.log("to ISO String -> " + date.toISOString());
+// console.log("JSON -> " + date.toJSON());
+// console.log("to Locale String -> " + date.toLocaleDateString());
+// console.log("Locale Time String -> " + date.toLocaleTimeString());
+
+// let newDate = new Date(2023,0,21,3,4,50)
+// console.log(newDate.toLocaleString());
+    
 
 
 
@@ -179,3 +197,14 @@ cl("2" === 2) -> false (strict check, also check the data type of the number)
 
 // const no = new Number(200);
 // console.log(no);
+
+// const x = 1234567890;
+// console.log(x.toLocaleString());
+
+
+
+
+
+
+
+
