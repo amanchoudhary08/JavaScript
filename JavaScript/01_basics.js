@@ -55,7 +55,7 @@ cl("2" === 2) -> false (strict check, also check the data type of the number)
             7 Types-> String, Number, Boolean, null, undefined, symbol,  BigInt
 
 2. Non-Primitive: 
-                Array, Objectsn Functions
+                Array, Objectn, Functions
 
 
 # Stack and Heap Memory
