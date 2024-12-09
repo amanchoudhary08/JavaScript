@@ -31,7 +31,7 @@
         const b= 2;
         var c = 3;
 
-        console.log(a);            -->> 1
+        console.log(a);            -->> 1 
     }
         console.log(a);         -->> 100
         console.log(b);
